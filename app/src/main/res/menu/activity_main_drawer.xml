@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_zhihu"
+            android:icon="@drawable/zhihu"
+            android:title="知乎首页" />
+        <item
+            android:id="@+id/nav_wangyi"
+            android:icon="@drawable/wangyi"
+            android:title="网易头条" />
+        <item
+            android:id="@+id/nav_look"
+            android:icon="@drawable/look2"
+            android:title="每日看看" />
+        <item
+            android:id="@+id/nav_nba"
+            android:icon="@drawable/nba"
+            android:title="NBA" />
+    </group>
+
+    <group
+        android:id="@+id/other"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_terror"
+            android:icon="@drawable/terror"
+            android:title="奇闻异事" />
+    </group>
+
+</menu>

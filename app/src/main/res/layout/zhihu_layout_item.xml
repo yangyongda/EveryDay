@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/zhihu_item_layout"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:paddingBottom="1dp"
+              android:paddingTop="1dp"
+              android:foreground="@color/mid_grey"
+              android:orientation="horizontal">
+
+    <ImageView
+        android:src="@drawable/news_head"
+        android:id="@+id/item_icon_id"
+        android:scaleType="fitCenter"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:id="@+id/item_text_id"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:textColor="@color/text_color"
+        android:textSize="18sp"/>
+</LinearLayout>

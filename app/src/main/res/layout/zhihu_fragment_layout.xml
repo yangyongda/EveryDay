@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+<!-- android:elevation 设置该组件“浮”起来的高度-->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycle_zhihu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:scrollbarStyle="outsideOverlay"
+        android:elevation="1dp" />
+
+    <ProgressBar
+        android:id="@+id/prograss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:indeterminate="true"
+        android:indeterminateTint="?android:colorAccent"
+        android:indeterminateTintMode="src_in" />
+
+</FrameLayout>

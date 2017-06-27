@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/anecdote_item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="1dp"
+    android:paddingTop="1dp"
+    android:foreground="@color/mid_grey"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:src="@drawable/news_head"
+        android:id="@+id/item_icon"
+        android:scaleType="fitCenter"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:textColor="@color/text_color"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginBottom="7dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:text="helooeddd"
+            android:textColor="@color/text_source"
+            android:textSize="10sp"/>
+    </LinearLayout>
+</LinearLayout>
